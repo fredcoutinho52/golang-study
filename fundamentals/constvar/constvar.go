@@ -7,13 +7,13 @@ import (
 
 func main() {
 	const PI float64 = 3.1415
-	var raio = 3.2 // tipo float64 inferido pelo compilador
+	var raio = 3.2 // type float64 inferred by the compiler
 
-	// forma reduzida para declarar uma var (recomendada)
+	// reduced form to declare a var (recommended)
 	area := PI * math.Pow(raio, 2)
 	fmt.Println("A área da circunferência é", area)
 
-	// outras formas de declaração
+	// other forms of declaration
 	const (
 		a = 1
 		b = 2
@@ -33,6 +33,6 @@ func main() {
 	fmt.Println(g, h, i)
 }
 
-// IMPORTANTE
-// O uso de uma variável é obrigatório
-// É possível atribuir labels nas importações dos pacotes
+// IMPORTANT
+// Use an declared variable is mandatory
+// Is possible to atribute labels for imports

@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Outro programa em %s!", "Go")
+	fmt.Print("First")
+	fmt.Print(" Program")
 }
