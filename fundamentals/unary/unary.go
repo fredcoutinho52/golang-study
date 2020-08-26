@@ -15,3 +15,4 @@ func main() {
 
 // IMPORTANT
 // Golang only have postfix unary operator
+// Golang don't have ternary operator
